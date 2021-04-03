@@ -40,5 +40,10 @@ html {
   letter-spacing: 1.2px;
   font-weight: 600;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.sounds__content--sound:hover {
+  background-color: #9553af;
 }
 /*# sourceMappingURL=style.css.map */

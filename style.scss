@@ -47,6 +47,11 @@ html {
       letter-spacing: 1.2px;
       font-weight: 600;
       cursor: pointer;
+      transition: 0.3s ease-in-out;
+    }
+
+    &--sound:hover {
+      background-color: #9553af;
     }
   }
 }
