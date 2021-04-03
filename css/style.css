@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sounds {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2c3e50;
+}
+
+.sounds__content {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 3rem;
+}
+
+.sounds__content--sound {
+  height: 100px;
+  background-color: #8e44ad;
+  border: 1px solid #2c3e50;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  color: #ecf0f1;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
